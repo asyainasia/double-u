@@ -1,0 +1,56 @@
+body {
+    background: url('../img/background.jpeg') no-repeat fixed; /* фоновая картинка */
+    background-size: 100%;
+    z-index: -1;
+}
+.header {
+    background-color: #000;
+    padding: 10px 0;
+}
+#name {
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+    color: #fff;
+}
+.circle {
+    width: 100px;
+}
+.gradient {
+    background: linear-gradient(to top right, #867db8, #be80d5);
+    color: #fff;
+    font-family: PT Sans, Arial;
+}
+.text-uppercase {
+    font-family: AC Line, Arial;
+    font-size: 32px;
+    line-height: 49px;
+}
+h1 {
+    padding-top: 30px;
+}
+.subtitle {
+    font-size: 16px;
+    line-height: 16px;
+}
+.small {
+    font-size: 18px;
+    line-height: 27px;
+}
+.large {
+    font-size: 21px;
+    line-height: 30px;
+}
+#button {
+    border: none;
+    background: linear-gradient(to top, #df4e9a, #5f445f);
+    padding: 5px 35px;
+    border-radius: 30px;
+}
+.row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logo {
+    width: 100px;
+}
